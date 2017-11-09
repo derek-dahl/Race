@@ -22,8 +22,7 @@ public class Lane {
     private static Lane INSTANCE = null; //private variable to store instance
     private String[] laneCheck = {"-", "-", "-", "-", "-", "-", "-", "-", "-"}; //default table body
     private String laneTable = "1\t2\t3\t4\t5\t6\t7\t8"; //table header 1-8    
-    private String laneTaken = "This lane has already been chosen"; //default output if lane is taken
-
+    private String laneTaken = "This lane is ocupied, please choose another..."; //default output if lane is taken
     private static HashSet laneList = new HashSet(); //creates new hashset for lanes
 
     private Lane() {
