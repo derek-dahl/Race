@@ -54,8 +54,6 @@ public class Race {
             } else {
                 System.out.println(invalidPrompt);//prints invalid input message
             }
-
-            //loop to go through hashset and print to a table
         }
     }
 
